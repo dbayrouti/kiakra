@@ -6,7 +6,7 @@
 
 #grilla {
   display: grid;
-  grid-template-rows: 50px auto 25px;
+  grid-template-rows: 50px 850px 25px;
   grid-template-columns: auto;
   grid-template-areas:
     "nav"
@@ -16,10 +16,6 @@
   width: 100%;
   height: 100%;
 }
-
-/* .border {
-  border: 1px solid black;
-} */
 
 header {
   grid-area: nav;

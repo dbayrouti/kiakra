@@ -17,10 +17,6 @@
   height: 100%;
 }
 
-/* .border {
-    border: 1px solid black;
-  } */
-
 header {
   grid-area: nav;
 }

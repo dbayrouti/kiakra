@@ -9,13 +9,13 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: black;
 }
 
@@ -56,13 +56,19 @@ p .span {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(grey), to(white));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(grey),
+    to(white)
+  );
   background: linear-gradient(to right, grey, white);
   margin: 0;
 }
@@ -75,10 +81,10 @@ p .span {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 50px auto 25px;
-      grid-template-rows: 50px auto 25px;
+  grid-template-rows: 50px 850px 25px;
   -ms-grid-columns: auto;
-      grid-template-columns: auto;
-      grid-template-areas: "nav" "main" "footer";
+  grid-template-columns: auto;
+  grid-template-areas: "nav" "main" "footer";
   grid-row-gap: 10px;
   width: 100%;
   height: 100%;
